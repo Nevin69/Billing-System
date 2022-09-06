@@ -1,0 +1,106 @@
+body {
+    margin: 0 5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#price[type=number]::-webkit-inner-spin-button, 
+#price[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.item-entry, .price-entry {
+    font-size: 16px;
+    height: 25px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: red;
+    width: 35%;
+    margin: 15px 10px;
+    padding: 10px;
+}
+
+.button-container {
+    margin-left: 20px;
+}
+
+.input-container {
+    width: 100%;
+}
+
+
+
+.input-field {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.submit-data {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.button {
+    background-color:#EB1D36 ;
+    border: 0;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 20%;
+    background-color: rgb(162, 243, 115);
+    padding: 0 30px;
+}
+
+.visibility {
+    visibility: hidden;
+}
+
+.data-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+.custom-border {
+    text-align: center;
+    padding: 10px 30px;
+    margin: 50px;
+    border: 2px solid black;
+  }
+
+  .deleteBox {
+    text-align: center;
+
+  }
+
+  .check-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+  }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing System</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="heading-container">
+            <h1>Input Logger</h1>
+        </div>
+        <div class="input-container">
+            <form>
+                <div class="input-field">
+                    <input type="text" name="product" id="entry" class="item-entry" placeholder="Enter Product Name">
+                    
+                    <input type="number" min="1" max="100" id="quantity" class="price-entry" style="width: 10%;" placeholder="Quantity">
+                    <input type="number" id="price" placeholder="Price" class="price-entry" style="width: 6%;">
+                    <div class="button-container">
+                        <button onclick="addItem()" type="button" class="button">Add</button>
+                    </div>
+                    
+                </div>
+                
+                <!-- <div class="list-container">
+                    <div class="remove-product">Delete</div>
+                    <div class="display-name">Product Name</div>
+                    <div class="display-quantity">Quantity</div>
+                    <div class="display-price">Price</div>
+                </div> -->
+                  
+
+            </form>
+          
+        </div>
+        <table  class="data-table ">
+            <tbody class="table-body visibility">
+                <tr>
+                    <th class="deleteBox">Delete</th>
+                    <th class="custom-border">Product Name</th>
+                    <th class="custom-border">Quantity</th>
+                    <th class="custom-border">Price</th>
+                    
+
+                </tr>
+
+            </tbody>
+        </table>
+        <div class="submit-data">
+                
+        </div>
+    </div>
+    <script src="render.js"></script>
+</body>
+</html>
